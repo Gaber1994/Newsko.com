@@ -1,0 +1,24 @@
+
+  <mat-grid-list cols="2" >
+    <mat-grid-tile class="crd"  *ngFor="let item of sportsArticles">
+        <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>{{item.title}}</mat-card-title>
+          <mat-card-subtitle>{{item.author}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="{{item.urlToImage}}">
+        <mat-card-content>
+          <p>
+            {{item.description}}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+            
+          <button mat-button><a href="http://{{item.source.name}}">Source</a></button>
+          <span >Puplishid at :{{item.publishedAt}}</span>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+    
+  </mat-grid-list>
+  

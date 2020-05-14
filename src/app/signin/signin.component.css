@@ -1,0 +1,45 @@
+.ng-star-inserted {
+    color: white !important;
+    font-size: 18px;
+    /* font-weight: bold; */
+
+}
+
+/* .signin_img{
+  background-image: url('/assets/imgs/home.jpg');
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.example-form {
+    background-image:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url('/assets/imgs/home2.jpg'); 
+    /* min-width: 150px;
+    max-width: 500px; */
+    margin: 0 auto;
+    padding: 1.5rem; 
+    /*  */
+    width: 100%;
+    background-color: #1282a2;
+    height: 80%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    
+
+    
+   
+
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  
+  td {
+    padding-right: 8px;
+  }

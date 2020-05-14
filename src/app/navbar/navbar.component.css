@@ -1,0 +1,51 @@
+.myNav{
+    
+    background-color: #637074;
+    position: fixed;
+    
+}
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #637074;
+  }
+  li {
+      float: left;
+
+  }
+.li_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .btn{
+    font-size: 18px;
+  }
+  .btn:hover {
+    background-color: #8aa39b;
+    transition-duration: 2s;
+  }
+
+
+  .signInBtn{
+    /* colo; */
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #1282a2;
+    /* background-color: black; */
+
+
+  }
+  .signInBtn:hover {
+    background-color: black;
+    transition-duration: 3s;
+    animation-duration: 2s;
+  }

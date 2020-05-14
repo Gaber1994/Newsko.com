@@ -1,0 +1,12 @@
+.homeImg{
+    /* Full height */
+    background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.2)), url('/assets/imgs/home.jpg'); 
+
+ height: 100%; 
+ width: 100%;
+
+ /* Center and scale the image nicely */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}

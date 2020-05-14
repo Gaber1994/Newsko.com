@@ -1,0 +1,18 @@
+<mat-toolbar class="myNav" >
+    <h2 class="title" >Newsko.com</h2>
+
+    <ul>
+        <li class="li_a">
+        <button mat-button class="btn" (click)="go(item.comp)"   *ngFor="let item of categories">{{item.name}} </button>
+    </li>
+        
+            
+      </ul>
+
+      <button mat-raised-button class="signInBtn" (click)="go('/SignIn')">Sign in</button>
+</mat-toolbar>
+
+
+
+
+
